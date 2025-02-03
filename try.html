@@ -5,35 +5,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cunanan's Portfolio </title>
-
+    <div id="header"></div>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>
-    <a class="ez" href="#footer">Go to footer</a>
-    <h1> Logo and Navigation Bar </h1>
+    <a class="ez" href="#footer">Go to footer</a> 
+    <br>
 
-    <!-- <div style="background-color: black;color: white;" class=" cont">Container 1</div> -->
+    <fieldset id ="header">
+        <div id="logo">
+            <img src="Logo.png"  width="100" 
+            height="100">
 
-    <div id="details">Nathaniel Cunanan | 20 | BS Computer Science | 2nd Year |</div>
+            <a class ="info" href = "#basInfo"> <h2> Basic Information</h2>  </a>
+            <a class ="info" href = "#prevProj"> <h2> Previous Projects</h2>  </a>
+            <a class ="info" href = "#skills"> <h2> Skills</h2>  </a>
+            <a class ="info" href = "#autoBiog"> <h2> Autobiography</h2>  </a>
+            <a class ="info" href = "#contact"> <h2> Contacts</h2>  </a>
+        </div>
 
-    <div id="mukha">
-        <img src="self.jpg">
+    </fieldset>
 
-    </div>
 
-    <div id="prev">Previous Projects</div>
+    <!-- BASIC INFORMATION -->
+    <div id="title">Basic Information</div>
 
+    <fieldset id="box">
+        <div id="logo">
+            <div id="mukha">
+                <img src="self.jpg">
+            </div>
+            
+        </div>
+        <p>
+            <div class = "bold"> Name: </div> Nathaniel S. Cunanan <br>
+            <div class = "bold"> Age: </div> 20 <br>
+            <div class = "bold"> Date of Birth: </div> 08/08/2004 <br>
+            <div class = "bold"> Current School: </div> University of the Philippines Los Baños <br>
+            <br>
+            <a class="ez" href="#autoBiog"> Go to Autobiography... </a>
+        </p>
+    </fieldset>
+
+
+    <!-- PREVIOUS PROJECTS -->
+    <div id="prevProj"></div>
+    <div id="title">Previous Projects</div>
     <div class="projects" id="project1"> Project 1</div>
     <div class="projects" id="project2"> Project 2</div>
     <div class="projects" id="project3"> Project 3</div>
     <div class="projects" id="project4"> Project 4</div>
 
+    <!-- SKILL -->
+    <div id="skills"></div>
     <div class="boxes" style="background-color:rgb(108, 42, 42);">
         <h2>Skills</h2>
+        <div id="skills"></div>
         <p>Attentive Listener</p>
         <p>Good Person HAHAHAHA</p>
     </div>
+
+    <!-- AUTO BIOGRAPHY -->
+    <div id="autoBiog"></div>
     <div class="boxes">
         <h2>Autobiography</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ab illo dolor dolore obcaecati commodi nihil,
@@ -42,23 +76,27 @@
     </div>
     </div>
 
-
-    <div id="footer">
-        <fieldset id="last">
-            <div id="prev">Contact Details</div>
-            <p>
-                Address: 951 Ilang-Ilang St. Malaria, Caloocan City <br>
-                Email: nscunanan@up.edu.ph <br>
-                Contact Number: 09451483359 <br>
-            </p>
-        </fieldset>
-
-    </div>
+    <!-- CONTACT DETAILS -->
+    <div id="contact"></div>
+    <div id="title">Contact Details</div>
+    <fieldset id="box">
+        <div id="logo">
+            <img src="Logo.png"  width="100" 
+            height="100">
+            
+        </div>
+        <p>
+            Address: 951 Ilang-Ilang St. Malaria, Caloocan City <br>
+            Email: nscunanan@up.edu.ph <br>
+            Contact Number: 09451483359 / 09604818323 <br>
+            <br>
+            <a class="ez" href="#header"> Back to Top </a>
+        </p>
+    </fieldset>
 
 
     <div id="footer"></div>
 
-    <a class="ez" href="#header"> Back to Top </a>
 </body>
 
 </html>
