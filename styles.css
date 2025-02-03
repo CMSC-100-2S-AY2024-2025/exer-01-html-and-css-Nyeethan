@@ -17,3 +17,10 @@
 
     /* display: inline-block; */
 }
+
+body {
+    background-image: url('background.jpg');
+    background-repeat: None;
+    background-size: 1920px 1080px;
+    background-attachment: fixed;
+}
