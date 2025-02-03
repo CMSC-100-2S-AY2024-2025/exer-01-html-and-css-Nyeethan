@@ -1,0 +1,19 @@
+.cont {
+    background-color: black;
+    border: 1px solid red;
+    color: white;
+}
+
+.small-square {
+    height: 300px;
+    width: 300px;
+    background-color: lightblue;
+    border: 1px solid black;
+    margin: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* display: inline-block; */
+}
