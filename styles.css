@@ -29,7 +29,7 @@
 
     justify-content: center;
     align-items: center;
-    background-image: url('header.gif');
+    background-image: url('Backgrounds/header.gif');
     background-repeat: None;
     background-size: 400px 500px;
     background-attachment: fixed;
@@ -72,7 +72,7 @@ h2 {
     color: white;
     padding: 15px;
 
-    background-image: url('box.jpg');
+    background-image: url('Backgrounds/box.jpg');
     background-repeat: None;
     background-size: 1700px 80px;
     background-attachment: fixed;
@@ -86,7 +86,7 @@ h2 {
 
 /* Background of the whole webpage */
 body {
-    background-image: url('bg2.gif');
+    background-image: url('Backgrounds/bg2.gif');
     background-repeat: None;
     background-size: 1920px 1080px;
     background-attachment: fixed;
@@ -105,7 +105,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    background-image: url('box2.jpg');
+    background-image: url('Backgrounds/box2.jpg');
     background-repeat: None;
     background-size: 1202px 1820px;
     background-attachment: fixed;
@@ -139,7 +139,7 @@ body {
     justify-content: left;
     gap: 20px; 
 
-    background-image: url('box.jpg');
+    background-image: url('Backgrounds/box.jpg');
     background-repeat: None;
     background-size: 1700px 80px;
     background-attachment: fixed;
