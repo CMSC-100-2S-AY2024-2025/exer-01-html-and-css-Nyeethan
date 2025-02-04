@@ -1,36 +1,41 @@
-#mukha {
+/* picture of self */
+#mukha { 
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-top: px; */
 }
 
+/* logo */
 #logo {
+    margin-left: 30px;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
-    /* display: inline; */
     flex-shrink: 0;
 }
 
+/* prev project */
 #game {
     display:flex;
     justify-content: center; 
     align-items: center;
 }
 
+/* Navigation Bar */
 #header{
     margin-top: 10px;
     margin-bottom: 10px;
-    /* height: 125px */
-    
-    /* display:inline; */
+
     justify-content: center;
     align-items: center;
-    background-color: rgb(46, 3, 3);
+    background-image: url('header.gif');
+    background-repeat: None;
+    background-size: 400px 500px;
+    background-attachment: fixed;
 }
 
+/* title from navigation bar */
 h2 {
     color:white;
     font: bold;
@@ -38,6 +43,7 @@ h2 {
     margin: 0 100px;
 }
 
+/* Header for each category */
 #title {
     color: rgb(222, 226, 129);
     font-family: cursive;
@@ -55,23 +61,30 @@ h2 {
     letter-spacing: 5px;
 }
 
-
+/* Previous Projects */
 .projects {
     display: flex;
-    align-items: center; /* Aligns image and text vertically */
-    justify-content: center; /* Centers the content */
-    background-color: rgb(46, 3, 3);
+    align-items: center; 
+    justify-content: center; 
+    
     border: 1px solid white;
     margin: 15px;
     color: white;
     padding: 15px;
+
+    background-image: url('box.jpg');
+    background-repeat: None;
+    background-size: 1700px 80px;
+    background-attachment: fixed;
+    
 }
 
 .projects p {
-    margin-left: 20px; /* Adds space between image and text */
-    max-width: 400px; /* Adjust text width */
+    margin-left: 20px;
+    max-width: 400px; /* Adjusting width of the text */
 }
 
+/* Background of the whole webpage */
 body {
     background-image: url('bg2.gif');
     background-repeat: None;
@@ -79,31 +92,11 @@ body {
     background-attachment: fixed;
 }
 
-h1 {
-    color: khaki;
-    font-family: Monospace;
-    background-image: red;
-    font-size: 350%;
-    border: 2px solid white;
-    /* padding: 10px; */
-    margin: 10px 5 10px 10;
-    font-weight: bold;
-    text-align: center;
-    background-color: rgba(285, 0, 10, 0.3);
-    text-shadow: 6px 5px black;
-    letter-spacing: 20px;
-
-    /* display: inline-block; */
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-
-}
-
+/* .box = fieldset for each boxes, #boxba = box for skills, #boxab = box for autobiography  */
 .box, #boxba, #boxab {
 
     color: white;
-    background-color: rgb(26, 3, 3);
+    /* background-color: rgb(26, 3, 3); */
 
     display: flex;
     align-items: center; /* Aligns logo and text vertically */
@@ -111,8 +104,16 @@ h1 {
 
     justify-content: center;
     align-items: center;
+
+    background-image: url('box2.jpg');
+    background-repeat: None;
+    background-size: 1202px 1820px;
+    background-attachment: fixed;
+
+    padding-left: 25px;
 }
 
+/* Adjusting so that merong 2 columns for skills and autobiog */
 #skills {
     width: 50%; 
     padding-right: 10px;
@@ -123,23 +124,28 @@ h1 {
     padding-left: 10px;
 }
 
+/* double = whole div of skills and autoBiog */
 #double {
     display: flex;
 }
 
+/* Box for contact details */
 #boxcon {
 
     color: white;
-    background-color: rgb(46, 3, 3);
 
     display: flex;
-    align-items: center; /* Aligns logo and text vertically */
-    gap: 20px; /* Space between the logo and contact details */
-
-    justify-content: left;
     align-items: center;
+    justify-content: left;
+    gap: 20px; 
+
+    background-image: url('box.jpg');
+    background-repeat: None;
+    background-size: 1700px 80px;
+    background-attachment: fixed;
 }
 
+/* Anchors for Header and Footer */
 .ez {
     color: FLoralwhite;
     font-family: Serif;
@@ -148,28 +154,26 @@ h1 {
     margin-top: 500px;
 }
 
+/* bold = headers for info like NAME:, info = the same thing */
 .bold, .info{
     color: rgb(216, 173, 71);
     display:inline-flex;
 }
 
+/* bold2 = alternate only for bold para may design hehe na salitan sila ng kulay slay */
 .bold2{
     color: rgba(210, 167, 69, 0.708);
     display:inline-flex;
 }
 
+/* info2 = alternate lang for info */
 .info2{
     color: rgb(236, 233, 229);
     font-family: Serif;
     background-color: rgba(249, 247, 247, 0.3);
 }
 
+/* Upon hovering, may pakeme */
 .info:hover, .info2:hover {
     background-color: rgb(95, 23, 23);
-}
-
-#header{
-    margin-top: 10px;
-    justify-content: center;
-    align-items: center;
 }
